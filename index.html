@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <title>NADA APOD</title>
+</head>
+<center>
+
+    <body>
+        <div class="container">
+    
+            <h1>NASA Picture of the day</h1>
+            <p>Each day a different image or photograph of our fascinating universe is featured, along with a brief
+                explanation written by a professional astronomer.</p>
+    
+            <form>
+                <input type="date" id="data">
+                <button id="botao" type="submit">SEND</button>
+            </form>
+    
+            <p>
+            <div class="apiNasa">
+                <h2 id="title"></h2>
+                <p id="explanation"></p>
+            </div>
+            </p>
+    
+            <div>
+                <img src="" id="url">
+            </div>
+    
+        </div>
+    
+        <script src="./jquery.js"></script>
+        <script src="./code.js"></script>
+    </body>
+</center>
+
+</html>
